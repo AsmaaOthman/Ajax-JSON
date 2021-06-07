@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin:0;padding:0;
+    box-sizing:border-box;
+    font-family: 'Lobster', cursive;
+}
+.content{
+    display:flex;
+    justify-content:space-around;
+    flex-flow: row wrap;
+    margin:10px 0px 20px 0px;
+}
+
+.show-content{
+    width:90%;
+    height:240px;
+    background-color:rgba(97, 137, 197, 0.377);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+
+.show-item{
+    margin-top:5px;
+    color:rgb(116, 113, 113);
+    text-align:center;
+}
+.show-item p{
+    margin-top:5px
+}
+
+img{
+    width:100px;
+    height:100px;
+    margin-top:5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+
+}
